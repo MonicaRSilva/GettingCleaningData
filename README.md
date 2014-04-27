@@ -8,15 +8,15 @@ The data set is available [here] (https://d396qusza40orc.cloudfront.net/getdata%
 
 ## File description ##
 The file should be arranged in this structure in order for the run_analysis.R script to work properly:
-* <working directory>:
+* ``<working directory>``:
  * run_analysis.R: script to merge, clean and analyse the data set.
  * features.txt: List of all features. Provided in the data set.
  * activity_labels.txt: Links the class labels with their activity name. Provided in the data set.
-* <working directory>/train: 
+* ``<working directory>``/train: 
  * X_train.txt: Training set. Provided in the data set.
  * y_train.txt: Training labels. Provided in the data set.
  * subject_train.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. Provided in the data set.
-* <working directory>/test: 
+* ``<working directory>``/test: 
  * X_test.txt: Test set. Provided in the data set.
  * y_test.txt: Test labels. Provided in the data set.
  * subject_test.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. Provided in the data set.
