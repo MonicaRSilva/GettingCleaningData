@@ -22,7 +22,8 @@ The file should be arranged in this structure in order for the run_analysis.R sc
  * subject_test.txt: Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. Provided in the data set.
 
 ## How it works ##
-The run_analysis.R script that does the following. 
+You need to download the data set and arrange the files as described above.
+The run_analysis.R script does the following: 
  1. Merges the training and the test sets to create one data set.
  2. Extracts only the measurements on the mean and standard deviation for each measurement. 
  3. Uses descriptive activity names to name the activities in the data set

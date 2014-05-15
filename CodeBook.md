@@ -48,5 +48,5 @@ The script:
  3. Merges both the test and trains data sets created above.
  4. Merges the data set created so far with the test and train labels.
  5. Selects only id, standard deviation and mean columns.
- 6. Descriptive activity labels are included in the data set and activy numeric values are removed.
+ 6. Descriptive activity labels are included in the data set and activity numeric values are removed.
  7. A new data set is created with the average of each variable, grouped by activity and subject.
