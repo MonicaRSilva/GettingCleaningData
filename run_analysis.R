@@ -18,7 +18,7 @@ Y <- rbind(ytest,ytrain) # Merging test and train labels
 features <- read.table("features.txt") 
 names(X) <- c("subject_id",as.character(features$V2))
 
-# Selecting only columns starting with "mean" or "std"
+# Selecting only columns ending with "mean" or "std"
 colnames <- grep(".*mean\\(\\)|.*std\\(\\)",features$V2)
 colnames <- features[colnames,"V2"]
 colnames <- c("subject_id",as.character(colnames))
