@@ -40,4 +40,4 @@ tidyset <- tidyset[,!names(tidyset) %in% c("activity_id")] #removing column "act
 library(plyr)
 tidyset <- ddply(tidyset,.(subject_id,activity),numcolwise(mean))
 
-write.table(tidyset,"tidy_data_set.txt") #write new tidy set in a txt file
+write.table(tidyset,"tidy_data_set.txt",sep=",",row.names=FALSE) #write new tidy set in a txt file
